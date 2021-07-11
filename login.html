@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log-in Form</title>
+    <script src="https://kit.fontawesome.com/997f079a7f.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        .login-content{
+            display: flex;
+            justify-content: center;
+           background-color: lightblue;
+           height: 700px;
+        
+        }
+        .log-in{
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+        }
+        .log-in input, button{
+            font-size: 1.2em;
+            margin-top: 5px;
+            border: 1px solid gray;
+        }
+        .log-in h2{
+            padding-left: 50px;
+        } 
+        .log-in button{
+            background-color: orange;
+            color: white;
+        } 
+        nav{
+            background-color:rgb(4, 179, 238) ;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            display: flex;
+            justify-content: space-between;
+    
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+            font-size: 1.5em;
+            margin-right: 8px;
+            margin-left: 20px;
+            color: white;        
+        }
+        nav a:hover{
+            color: rgb(4, 179, 238) ;
+            background-color: white;
+            padding: 5px 8px 5px 8px;
+        }
+
+         </style>
+         
+</head>
+<body>
+    <header>
+        <nav>
+            <span>
+                <a class="home" href="">Home</a>
+                <a href="">Menu</a>
+                <a href="">Settings</a>
+                <a href="">About Us</a>
+            </span>
+            <span class="icon">
+                <a href=""><i class="fas fa-user-circle"></i></a>
+                <a href=""><i class="fas fa-sign-in-alt"></i></a>
+            </span>
+        </nav>
+    </header>
+    <section class="login-content">
+        <form action="" class="log-in">
+            <h2>Log-in Form</h2>
+            <input type="email" name="Email" placeholder="Enter Your Email" id="">
+            <input type="password" name="Password" placeholder="Enter Your Password" id="">
+            <button type="submit">Submit</button>
+        </form>   
+     </section>
+</body>
+</html>
